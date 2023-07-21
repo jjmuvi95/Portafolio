@@ -27,6 +27,7 @@ header{
 }
 nav a {
     color: var(--white);
+    
 }
 nav{
     display:flex;
@@ -55,6 +56,7 @@ li {
     list-style: none; 
     margin-left: 20px;
     margin-right: 20PX;
+    font-size: var(--lg);
 }
 ol{
     width: 80%;
