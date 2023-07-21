@@ -1,0 +1,68 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Righteous', cursive;
+}
+header{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    border: 2px;
+   
+}
+nav a {
+    color: var(--white);
+}
+nav{
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    width: 100%;
+    height: 10%;
+
+}
+
+.jesus {
+    display: flex;
+    width: 20%;
+    font-size: 30px;
+    margin: 0;
+    height: 100%;
+    margin-left: 20px;
+    align-items: center;
+}
+
+
+
+li {
+    color: white;
+    list-style: none; 
+    margin-left: 20px;
+    margin-right: 20PX;
+}
+ol{
+    width: 80%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+
