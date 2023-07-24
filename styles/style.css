@@ -17,8 +17,9 @@ body{
     padding: 0px;
     font-family: 'Righteous', cursive;
 }
-h1 {
+.fondocosmico h1 {
     text-align: center;
+    color: #40a3ff;
 }
 header{
     padding: 0px;
@@ -82,7 +83,7 @@ ol{
     justify-content: center;
     align-items: center;
     color: var(--white);
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -102,3 +103,6 @@ ol{
     
 }
 
+.sobremi img{
+    width: 300px;
+}
