@@ -1,6 +1,7 @@
 :root {
     --white: #FFFFFF;
     --black: #000000;
+    --morado: #8f8be3;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -59,14 +60,14 @@ nav{
 
 
 
-li {
+header li {
     color: white;
     list-style: none; 
     margin-left: 20px;
     margin-right: 20PX;
     font-size: var(--lg);
 }
-ol{
+header ol{
     width: 80%;
     margin: 0;
     display: flex;
@@ -103,6 +104,34 @@ ol{
     
 }
 
-.sobremi img{
-    width: 300px;
+
+.sobremi {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobremi div{
+    height: 300px;
+    width: 50%;
+    margin: 8px;
+    border: solid var(--black);
+    border-radius: 20px;
+}
+
+.sobremi div span h3 {
+    height: 5vh;
+    margin: 0px;
+    padding-left: 0px;
+    border-bottom: solid ;
+    width: 100%;
+    border-radius: 20px 20px 0 0 ;
+    text-align: center;
+    align-items: center;
+    background-color: var(--morado);
+
+
+    
 }
